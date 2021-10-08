@@ -1,0 +1,142 @@
+body {
+    background-color: #f8f8f8f8;
+}
+
+header {
+    background-color: #000;
+    height: 75px;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.contorno-logo {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    margin-top: 5px;
+}
+
+.logo {
+    vertical-align: center;
+    width: auto;
+    height: 50px;
+    font-family: 'Bodoni Moda', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.menu-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 35px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 0 0 25px;
+}
+
+nav a:hover {
+    color: #f90000;
+    text-shadow: #fff;
+}
+
+
+main {
+    background-color: #f8f8f8f8;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.banner {
+    margin: 0 auto;
+}
+
+.banner-principal {
+    width: auto;
+}
+
+.imagem-banner {
+    width: auto;
+    height: 350px;
+    margin: 20px 10%;
+    position: relative;
+    border: solid 1px #000;
+}
+
+.texto-banner {
+    margin: 0 auto;
+    font-family: 'Bodoni Moda', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;  
+}
+
+
+footer {
+    background-color: #000;
+    height: 250px;
+    text-align: center;
+}
+
+.wrap{
+    display: inline;
+}
+
+.social-wrap{
+    display: inline;
+}
+
+.social{
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    padding: 0 15px;
+    margin: 50px 0;
+    color: #fff;
+}
+
+.social:hover{
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    padding: 0 15px;
+    margin: 50px 0;
+    color: #890000;
+    transition: 0.5s;
+}
+
+.limaocode {
+    color: #fff;
+    text-decoration: none;
+}
+.limaocode:hover {
+    color: #008900;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+.texto-footer {
+    color: #fff;
+    line-height: 20px;
+}
