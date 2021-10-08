@@ -1,37 +1,38 @@
 body {
-    background-color: #f8f8f8f8;
+    background-color: #333132;
 }
 
 header {
     background-color: #000;
-    height: 75px;
+    height: 100px;
+    font-family: 'Bodoni Moda', serif;
 }
 
 .caixa {
-    width: 940px;
+    width: 960px;
+    height: 75px;
     position: relative;
     margin: 0 auto;
 }
 
 .contorno-logo {
     position: absolute;
+    height: 75px;
     top: 0;
-    left: 50px;
-    margin-top: 5px;
+    left: 0px;
+    margin-top: 10px;
 }
 
 .logo {
-    vertical-align: center;
     width: auto;
     height: 50px;
-    font-family: 'Bodoni Moda', serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 30px;
     text-align: center;
     text-transform: uppercase;
     color: #fff;
+    margin: 5px;
 }
 
 .menu-header {
@@ -48,20 +49,22 @@ nav li {
 nav a {
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: bold;
     color: #fff;
     font-size: 16px;
     padding: 0 0 0 25px;
 }
 
 nav a:hover {
-    color: #f90000;
+    color: #A90000;
     text-shadow: #fff;
+    transition: 0.5s;
 }
 
 
 main {
-    background-color: #f8f8f8f8;
-    width: 940px;
+    background-color: #333132;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -70,27 +73,91 @@ main {
 }
 
 .banner-principal {
-    width: auto;
+    width:960px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .imagem-banner {
-    width: auto;
+    width: 960px;
     height: 350px;
-    margin: 20px 10%;
-    position: relative;
+    margin: 35px 0;
     border: solid 1px #000;
 }
 
-.texto-banner {
+.texto-banner { 
     margin: 0 auto;
-    font-family: 'Bodoni Moda', serif;
-    font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 35px;
     line-height: 30px;
     text-align: center;
     text-transform: uppercase;
     color: #000;  
+    text-shadow: 2px 2px #fff;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 3.2em;
+    top: 5em;
+    
+}
+
+
+
+
+.texto-index {
+    color: #fff;
+    width: 960px;
+    height: 300px;
+    margin: 35px auto;
+}
+
+.texto-wrap {
+    width: 765px;
+    margin: 10px auto;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.texto-index p {
+    padding-bottom: 45px;
+}
+
+.botao-orc{
+    font-family: 'Bodoni Moda', serif;
+    display: block;
+    width: 235px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #A90000 ;
+    margin: 15px auto 55px ;
+    padding: 20px 25px ;
+    text-transform: uppercase;
+    border: solid 1px #000;
+    border-radius: 5px;
+}
+
+.botao-orc:hover {
+    background-color: #FFF;
+    color: #000;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.equipe {
+    width:960px;
+    height: 450px;
+}
+
+.equipe-wrap {
+    width: 0 auto;
+}
+
+.foto-equipe {
+    width: auto;
+    height: 360px;
+    margin: 15px 17%;
+    border: solid 1px #000;
 }
 
 
@@ -110,21 +177,17 @@ footer {
 
 .social{
     display: inline-block;
-    width: 64px;
-    height: 64px;
+    width: 50px;
+    height: 50px;
     padding: 0 15px;
     margin: 50px 0;
     color: #fff;
 }
 
 .social:hover{
-    display: inline-block;
-    width: 64px;
-    height: 64px;
-    padding: 0 15px;
-    margin: 50px 0;
-    color: #890000;
+    color: #A90000;
     transition: 0.5s;
+    
 }
 
 .limaocode {
@@ -138,5 +201,4 @@ footer {
 }
 .texto-footer {
     color: #fff;
-    line-height: 20px;
 }
