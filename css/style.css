@@ -183,18 +183,18 @@ footer {
     height: 50px;
     padding: 0 15px;
     margin: 50px 0;
+    font-size: 64px;
+    
+}
+.social:visited {
+    color: #fff;
 }
 
 .social:hover{
     color: #A90000;
     transition: 0.5s;
-    
 }
 
-.icon:hover{
-    color: #A90000;
-    transition: 0.5s;
-}
 
 .limaocode {
     color: #fff;
