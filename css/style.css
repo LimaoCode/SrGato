@@ -2,6 +2,8 @@ body {
     background-color: #333132;
 }
 
+
+/*INICIO DO HEADER*/
 header {
     background-color: #000;
     height: 100px;
@@ -60,8 +62,10 @@ nav a:hover {
     text-shadow: #fff;
     transition: 0.5s;
 }
+/*FIM DO HEADER*/
 
 
+/*INICIO DO INDEX*/
 main {
     background-color: #333132;
     width: 960px;
@@ -101,9 +105,6 @@ main {
     top: 5em;
     
 }
-
-
-
 
 .texto-index {
     color: #fff;
@@ -159,8 +160,37 @@ main {
     margin: 15px 17%;
     border: solid 1px #000;
 }
+/*FIM DO INDEX*/
 
+/*INICIO DO ESTUDIO*/
+.titulo-estudio {
+    color: #fff;
+    text-transform: uppercase;
+    margin: 25px;
+    font-size: 32px;
+}
 
+.mapa {
+    margin: 0 25px 25px 25px;
+    float: left;
+    border-radius: 3px;
+    border: 2px solid black!important;
+}
+
+.texto-estudio {   
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    vertical-align:top;
+}
+
+.hr1 {
+    clear: left;
+}
+
+/*FIM DO ESTÚDIO*/
+
+/*INICIO DO FOOTER*/
 footer {
     background-color: #000;
     height: 250px;
@@ -195,16 +225,18 @@ footer {
     transition: 0.5s;
 }
 
-
 .limaocode {
     color: #fff;
     text-decoration: none;
 }
+
 .limaocode:hover {
     color: #008900;
     transition: 0.5s;
     text-decoration: underline;
 }
+
 .texto-footer {
     color: #fff;
 }
+/*FIM DO FOOTER*/
